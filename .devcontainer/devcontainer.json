@@ -1,0 +1,35 @@
+{
+	"name": "ESP-IDF & MBedOS 6",
+	"image": "ghcr.io/syoch/robotics:bookworm-2.1.0",
+	// Features to add to the dev container. More info: https://containers.dev/features.
+	"features": {
+		"ghcr.io/syoch/devcontainers/device-forward:1.0.2": {}
+	},
+	"mounts": [
+		"source=${localEnv:HOME}/.ssh,target=/home/vscode/.ssh,type=bind,consistency=cached"
+	],
+	"postCreateCommand": ".devcontainer/postCreate.sh",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"ms-vscode.cpptools",
+				"GitHub.copilot",
+				"SonarSource.sonarlint-vscode",
+				"ms-python.python",
+				"ms-toolsai.jupyter",
+				"charliermarsh.ruff",
+				"mhutchie.git-graph",
+				"rust-lang.rust-analyzer",
+				"shd101wyy.markdown-preview-enhanced",
+				"yzhang.markdown-all-in-one",
+				"wk-j.save-and-run",
+				"xaver.clang-format",
+				"llvm-vs-code-extensions.vscode-clangd",
+				"ms-vscode.cmake-tools",
+				"vadimcn.vscode-lldb",
+				"marus25.cortex-debug",
+				"visualstudioexptteam.vscodeintellicode"
+			]
+		}
+	}
+}

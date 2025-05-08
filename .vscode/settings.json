@@ -1,0 +1,40 @@
+{
+  "python.analysis.autoImportCompletions": true,
+  "python.analysis.typeCheckingMode": "basic",
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/Thumbs.db": true,
+    ".venv": true,
+    ".cache": true,
+  },
+  "editor.inlayHints.enabled": "on",
+  "sonarlint.pathToCompileCommands": "${workspaceFolder}/build/compile_commands.json",
+  "cmake.preferredGenerators": [
+    "Ninja",
+    "Unix Makefiles",
+    "Ninja Multi-Config"
+  ],
+  "cmake.configureArgs": [
+    "-DCMAKE_BUILD_TYPE=Debug",
+  ],
+  "cmake.showSystemKits": true,
+  "cmake.mergedCompileCommands": "${workspaceFolder}/build/compile_commands.json",
+  "lldb.displayFormat": "auto",
+  "lldb.showDisassembly": "always",
+  "lldb.dereferencePointers": true,
+  "lldb.consoleMode": "commands",
+  "cSpell.words": [
+    "RMESC"
+  ],
+  /* "saveAndRun": {
+    "commands": [
+      {
+        "cmd": "clear; bash scripts/on_save.sh ${file}",
+      }
+    ]
+  } */
+}

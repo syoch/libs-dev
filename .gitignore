@@ -1,0 +1,8 @@
+build
+
+# clangd
+.cache
+.venv
+
+# esp-idf
+managed_components

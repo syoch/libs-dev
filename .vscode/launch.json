@@ -1,0 +1,60 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "cwd": "${workspaceFolder}",
+      "executable": "/workspaces/NHK2025A/build/F4M/src/F4M-build/src/02-f4m-test-n25a-rx/02-f4m-test-n25a-rx",
+      "name": "F4M] 02-f4m-test-n25a-rx",
+      "request": "attach",
+      "type": "cortex-debug",
+      "breakAfterReset": false,
+      "showDevDebugOutput": "none",
+      "servertype": "stutil",
+      "serverpath": ".vscode/su-stutil.sh",
+      "serverArgs": [
+        "-n",
+        "--serial",
+        "066AFF495057717867162927"
+      ],
+    },
+    {
+      "cwd": "${workspaceFolder}",
+      "executable": "/workspaces/NHK2025A/build/F4H/src/F4H-build/src/80-controller/80-controller",
+      "name": "F4H] 80-controller",
+      "request": "attach",
+      "type": "cortex-debug",
+      "breakAfterReset": false,
+      "showDevDebugOutput": "none",
+      "servertype": "stutil"
+    },
+    {
+      "cwd": "${workspaceFolder}",
+      "executable": "/workspaces/NHK2025A/build/F3H/src/F3H-build/src/00-f3h-test/00-f3h-main",
+      "name": "F3H] 00-f3h-main",
+      "request": "attach",
+      "type": "cortex-debug",
+      "breakAfterReset": false,
+      "showDevDebugOutput": "none",
+      "servertype": "stutil",
+      "serverArgs": [
+        "-n",
+        "--serial",
+        "0667FF373146363143225029"
+      ],
+    }
+    /* {
+      "name": "80-im920-test 1",
+      "type": "cortex-debug",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "executable": "/workspaces/NHK2025A/build/NUCLEO_F303K8/src/F303K8-HAL-build/src/80-f3b-robobus/80-f3b-robobus",
+      "servertype": "stutil",
+      "serverArgs": [
+        "-n",
+        "--serial",
+        "0671FF373146363143203322"
+      ],
+      "svdPath": "/workspaces/NHK2025A/.vscode/STM32F303.svd"
+    }, */
+  ]
+}
