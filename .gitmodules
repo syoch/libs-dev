@@ -1,0 +1,9 @@
+[submodule "srobo_base"]
+	path = srobo_base
+	url = git@github.com:nnctroboticsclub/srobo_base.git
+[submodule "im920_rs"]
+	path = im920_rs
+	url = git@github.com:nnctroboticsclub/im920_rs.git
+[submodule "devcontainers"]
+	path = devcontainers
+	url = git@github.com:syoch/devcontainers
