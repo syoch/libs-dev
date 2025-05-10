@@ -1,0 +1,14 @@
+[workspace]
+resolver = "3"
+members = [
+    "srobo_base",
+    "im920_rs",
+    "rust_test",
+]
+
+[patch."ssh://git@github.com/nnctroboticsclub/srobo_base"]
+srobo_base = { path = "srobo_base", feature = ["std"] }
+
+
+[patch."ssh://git@github.com/nnctroboticsclub/im920_rs"]
+im920_rs = { path = "im920_rs" }
