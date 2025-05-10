@@ -7,3 +7,6 @@
 [submodule "devcontainers"]
 	path = devcontainers
 	url = git@github.com:syoch/devcontainers
+[submodule "work/syoch-robotics"]
+	path = work/syoch-robotics
+	url = git@github.com:nnctroboticsclub/syoch-robotics.git
