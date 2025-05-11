@@ -31,3 +31,9 @@
 [submodule "work/apt-2025"]
 	path = work/apt-2025
 	url = git@github.com:nnctroboticsclub/apt-2025.git
+[submodule "work/raspi-services"]
+	path = work/raspi-services
+	url = git@github.com:nnctroboticsclub/raspi-services.git
+[submodule "work/ppa-2025"]
+	path = work/ppa-2025
+	url = git@github.com:nnctroboticsclub/ppa-2025.git
