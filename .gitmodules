@@ -13,3 +13,21 @@
 [submodule "work/devcontainers"]
 	path = work/devcontainers
 	url = git@github.com:syoch/devcontainers
+[submodule "libs/ikarashiCAN_mk2"]
+	path = libs/ikarashiCAN_mk2
+	url = git@github.com:nnctroboticsclub/ikarashiCAN_mk2
+[submodule "libs/ikakoMDC"]
+	path = libs/ikakoMDC
+	url = git@github.com:nnctroboticsclub/ikakoMDC
+[submodule "libs/MotorController"]
+	path = libs/MotorController
+	url = git@github.com:nnctroboticsclub/MotorController
+[submodule "libs/IkakoRobomas"]
+	path = libs/IkakoRobomas
+	url = git@github.com:nnctroboticsclub/IkakoRobomas
+[submodule "work/static-mbed-os"]
+	path = work/static-mbed-os
+	url = git@github.com:nnctroboticsclub/static-mbed-os
+[submodule "work/apt-2025"]
+	path = work/apt-2025
+	url = git@github.com:nnctroboticsclub/apt-2025.git
