@@ -4,9 +4,6 @@
 [submodule "im920_rs"]
 	path = im920_rs
 	url = git@github.com:nnctroboticsclub/im920_rs.git
-[submodule "devcontainers"]
-	path = devcontainers
-	url = git@github.com:syoch/devcontainers
 [submodule "work/syoch-robotics"]
 	path = work/syoch-robotics
 	url = git@github.com:nnctroboticsclub/syoch-robotics.git
@@ -31,3 +28,6 @@
 [submodule "work/raspi-services"]
 	path = work/raspi-services
 	url = git@github.com:nnctroboticsclub/raspi-services.git
+[submodule "ppa"]
+	path = ppa
+	url = git@github.com:nnctroboticsclub/ppa
