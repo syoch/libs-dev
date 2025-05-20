@@ -25,9 +25,6 @@
 [submodule "work/static-mbed-os"]
 	path = work/static-mbed-os
 	url = git@github.com:nnctroboticsclub/static-mbed-os
-[submodule "work/raspi-services"]
-	path = work/raspi-services
-	url = git@github.com:nnctroboticsclub/raspi-services.git
 [submodule "ppa"]
 	path = ppa
 	url = git@github.com:nnctroboticsclub/ppa
