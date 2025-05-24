@@ -1,14 +1,16 @@
 {
-	"name": "ESP-IDF & MBedOS 6",
-	"image": "ghcr.io/syoch/robotics:bookworm-2.1.0",
-	// Features to add to the dev container. More info: https://containers.dev/features.
+	"name": "Robotics",
+	"image": "ghcr.io/syoch/robotics:bookworm-2.1.2rc3",
 	"features": {
-		"ghcr.io/syoch/devcontainers/device-forward:1.0.2": {}
+		"ghcr.io/devcontainers-extra/features/act": {},
+		"ghcr.io/devcontainers/features/docker-in-docker:2.12.2": {
+			"enableNonRootDocker": "true",
+			"moby": "true"
+		}
 	},
 	"mounts": [
 		"source=${localEnv:HOME}/.ssh,target=/home/vscode/.ssh,type=bind,consistency=cached"
 	],
-	"postCreateCommand": ".devcontainer/postCreate.sh",
 	"customizations": {
 		"vscode": {
 			"extensions": [
@@ -28,7 +30,8 @@
 				"ms-vscode.cmake-tools",
 				"vadimcn.vscode-lldb",
 				"marus25.cortex-debug",
-				"visualstudioexptteam.vscodeintellicode"
+				"visualstudioexptteam.vscodeintellicode",
+				"github.vscode-github-actions"
 			]
 		}
 	}
