@@ -4,21 +4,36 @@
 			"path": "."
 		},
 		{
-			"path": "/tmp/static-mbed-os"
+			"path": "services/raspi-services"
 		},
 		{
-			"path": "/tmp/libs-cmake"
+			"path": "rust-test"
+		},
+		{
+			"path": "projects/NHK2025A"
 		}
 	],
 	"settings": {
 		"C_Cpp.intelliSenseEngine": "disabled",
-		"cmake.cmakePath": "/usr/local/bin/cmake",
+		"cmake.cmakePath": "/usr/bin/cmake",
 		"clangd.path": "clangd-19",
 		"clangd.arguments": [
 			"--enable-config",
 			"--query-driver=/usr/bin/arm-none-eabi-gcc"
 		],
 		"sonarlint.pathToCompileCommands": "${workspaceFolder}/build/compile_commands.json",
+		"files.exclude": {
+			"**/.git": true,
+			"**/.svn": true,
+			"**/.hg": true,
+			"**/.DS_Store": true,
+			"**/Thumbs.db": true,
+			"work/syoch-robotics": true,
+			"work/devcontainers": true,
+			"work/static-mbed-os": true,
+			"services/raspi-services": true,
+			"projects/NHK2025A": true,
+		},
 		"files.associations": {
 			"*.meson": "meson",
 			"idf_py_stdout_output_8711": "log",

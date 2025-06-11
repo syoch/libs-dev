@@ -1,6 +1,6 @@
 {
 	"name": "Robotics",
-	"image": "ghcr.io/syoch/robotics:bookworm-2.1.2rc3",
+	"image": "ghcr.io/syoch/robotics:bookworm-2.1.2rc8",
 	"features": {
 		"ghcr.io/devcontainers-extra/features/act": {},
 		"ghcr.io/devcontainers/features/docker-in-docker:2.12.2": {
