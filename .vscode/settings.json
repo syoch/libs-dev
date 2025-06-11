@@ -27,14 +27,4 @@
   "lldb.showDisassembly": "always",
   "lldb.dereferencePointers": true,
   "lldb.consoleMode": "commands",
-  "cSpell.words": [
-    "RMESC"
-  ],
-  /* "saveAndRun": {
-    "commands": [
-      {
-        "cmd": "clear; bash scripts/on_save.sh ${file}",
-      }
-    ]
-  } */
 }
