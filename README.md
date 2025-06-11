@@ -9,5 +9,5 @@ act --secret-file .devcontainer/.env -s "NNCT_ROBO_PRIVATE_KEY=$(< .devcontaier/
 ```
 
 ## To-Do
-static-mbed-os-src に mbed-ce のソースを任せる ()
-stm32cube-f303k8, stm32cube-f446re を作る
+- static-mbed-os-src に mbed-ce のソースを任せる ()
+- stm32cube-f303k8, stm32cube-f446re を作る
