@@ -1,9 +1,3 @@
-[submodule "srobo_base"]
-	path = srobo_base
-	url = git@github.com:nnctroboticsclub/srobo_base.git
-[submodule "im920_rs"]
-	path = im920_rs
-	url = git@github.com:nnctroboticsclub/im920_rs.git
 [submodule "work/syoch-robotics"]
 	path = work/syoch-robotics
 	url = git@github.com:nnctroboticsclub/syoch-robotics.git
@@ -25,6 +19,18 @@
 [submodule "work/static-mbed-os"]
 	path = work/static-mbed-os
 	url = git@github.com:nnctroboticsclub/static-mbed-os
-[submodule "ppa"]
-	path = ppa
-	url = git@github.com:nnctroboticsclub/ppa
+[submodule "framework/libs-cmake"]
+	path = framework/libs-cmake
+	url = git@github.com:nnctroboticsclub/libs-cmake
+[submodule "services/raspi-services"]
+	path = services/raspi-services
+	url = git@github.com:nnctroboticsclub/raspi-services
+[submodule "projects/NHK2025A"]
+	path = projects/NHK2025A
+	url = git@github.com:nnctroboticsclub/NHK2025A
+[submodule "rust-test/im920_rs"]
+	path = rust-test/im920_rs
+	url = git@github.com:nnctroboticsclub/im920_rs
+[submodule "rust-test/srobo_base"]
+	path = rust-test/srobo_base
+	url = git@github.com:nnctroboticsclub/srobo_base
