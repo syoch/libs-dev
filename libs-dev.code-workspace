@@ -9,11 +9,10 @@
 	],
 	"settings": {
 		"C_Cpp.intelliSenseEngine": "disabled",
-		"cmake.cmakePath": "/usr/bin/cmake",
-		"clangd.path": "clangd-19",
+		"cmake.cmakePath": "cmake",
+		"clangd.path": "clangd",
 		"clangd.arguments": [
-			"--enable-config",
-			"--query-driver=/usr/bin/arm-none-eabi-gcc"
+			"--enable-config"
 		],
 		"sonarlint.pathToCompileCommands": "${workspaceFolder}/build/compile_commands.json",
 		"files.exclude": {
@@ -22,6 +21,7 @@
 			"**/.hg": true,
 			"**/.DS_Store": true,
 			"**/Thumbs.db": true,
+			"rust-test": true
 		},
 		"explorer.fileNesting.enabled": true,
 		"explorer.fileNesting.expand": false,

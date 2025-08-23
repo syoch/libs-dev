@@ -1,6 +1,7 @@
 {
 	"name": "Robotics",
 	"image": "ghcr.io/syoch/robotics:bookworm-2.1.2rc8",
+	"privileged": true,
 	"features": {
 		"ghcr.io/devcontainers-extra/features/act": {},
 		"ghcr.io/devcontainers/features/docker-in-docker:2.12.2": {
@@ -9,7 +10,8 @@
 		}
 	},
 	"mounts": [
-		"source=${localEnv:HOME}/.ssh,target=/home/vscode/.ssh,type=bind,consistency=cached"
+		"source=${localEnv:HOME}/.ssh,target=/home/vscode/.ssh,type=bind,consistency=cached",
+		"source=/dev,target=/dev,type=bind"
 	],
 	"customizations": {
 		"vscode": {
