@@ -31,3 +31,6 @@
 [submodule "libs/syoch-robotics"]
 	path = libs/syoch-robotics
 	url = git@github.com:nnctroboticsclub/syoch-robotics
+[submodule "container/devcontainers"]
+	path = container/devcontainers
+	url = git@github.com:syoch/devcontainers
