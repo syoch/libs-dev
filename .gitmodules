@@ -16,9 +16,6 @@
 [submodule "services/raspi-services"]
 	path = services/raspi-services
 	url = git@github.com:nnctroboticsclub/raspi-services
-[submodule "projects/NHK2025A"]
-	path = projects/NHK2025A
-	url = git@github.com:nnctroboticsclub/NHK2025A
 [submodule "rust-test/im920_rs"]
 	path = rust-test/im920_rs
 	url = git@github.com:nnctroboticsclub/im920_rs
