@@ -6,9 +6,6 @@ members = [
     "rust_test",
 ]
 
-[patch."ssh://git@github.com/nnctroboticsclub/srobo_base"]
+[patch.crates-io]
 srobo_base = { path = "srobo_base", feature = ["std"] }
-
-
-[patch."ssh://git@github.com/nnctroboticsclub/im920_rs"]
 im920_rs = { path = "im920_rs" }
