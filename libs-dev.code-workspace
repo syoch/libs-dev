@@ -31,11 +31,5 @@
 			".clangd": ".clang-format",
 			"Makefile": "CMakeLists.txt, mbed_app.json, sdkconfig, dependencies.lock",
 		},
-		"cortex-debug.variableUseNaturalFormat": true
-	},
-	"extensions": {
-		"recommendations": [
-			"github.copilot"
-		]
 	},
 }
