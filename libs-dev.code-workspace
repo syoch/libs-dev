@@ -14,7 +14,7 @@
 		"clangd.arguments": [
 			"--enable-config"
 		],
-		"sonarlint.pathToCompileCommands": "${workspaceFolder}/build/compile_commands.json",
+		"rust-analyzer.server.path": "rust-analyzer",
 		"files.exclude": {
 			"**/.git": true,
 			"**/.svn": true,
@@ -31,5 +31,13 @@
 			".clangd": ".clang-format",
 			"Makefile": "CMakeLists.txt, mbed_app.json, sdkconfig, dependencies.lock",
 		},
+		"chat.tools.terminal.enableAutoApprove": true,
+		"chat.tools.terminal.autoApprove": {
+			"nix build": true,
+			"nix run": true,
+			"nix log": true,
+			"nix flake update": true,
+			"ls": true
+		}
 	},
 }
