@@ -11,7 +11,7 @@
         "static-mbed-os": "static-mbed-os"
       },
       "locked": {
-        "lastModified": 1763429763,
+        "lastModified": 1763451017,
         "narHash": "sha256-sjfOHAjVJHl73RYXOo+VEUr/99FMYLYiHvPvzRQK6o4=",
         "path": "/mnt/data/ghq/github.com/syoch/libs-dev/NHK2025A",
         "type": "path"
@@ -61,14 +61,11 @@
         ],
         "nixpkgs": [
           "nixpkgs"
-        ],
-        "static-mbed-os": [
-          "static-mbed-os"
         ]
       },
       "locked": {
-        "lastModified": 1763425223,
-        "narHash": "sha256-uszP2r40iROXEKNOrO8TB19dBYvIzggn+hRJ7Cx/iyY=",
+        "lastModified": 1763451017,
+        "narHash": "sha256-P/nPYt1VAQsqODaSD81f2sx+vcLzrc2UK8gNJNGopl8=",
         "path": "/mnt/data/ghq/github.com/syoch/libs-dev/libs/roboenv-nix",
         "type": "path"
       },
@@ -98,8 +95,8 @@
         ]
       },
       "locked": {
-        "lastModified": 1763429199,
-        "narHash": "sha256-vr75tv2ixmMN60OcfM+oElyPKRQhz0r6hita8MF+m5A=",
+        "lastModified": 1763450996,
+        "narHash": "sha256-RFEtOz6lC1rdfAwR3LcB00RtNGpEi9Yu25Ox/jx2ADw=",
         "path": "/mnt/data/ghq/github.com/syoch/libs-dev/libs/static-mbed-os",
         "type": "path"
       },
@@ -118,8 +115,8 @@
         ]
       },
       "locked": {
-        "lastModified": 1763429199,
-        "narHash": "sha256-vr75tv2ixmMN60OcfM+oElyPKRQhz0r6hita8MF+m5A=",
+        "lastModified": 1763450996,
+        "narHash": "sha256-RFEtOz6lC1rdfAwR3LcB00RtNGpEi9Yu25Ox/jx2ADw=",
         "path": "/mnt/data/ghq/github.com/syoch/libs-dev/libs/static-mbed-os",
         "type": "path"
       },

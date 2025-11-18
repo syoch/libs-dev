@@ -22,9 +22,6 @@
 [submodule "rust-test/srobo_base"]
 	path = rust-test/srobo_base
 	url = git@github.com:nnctroboticsclub/srobo_base
-[submodule "libs/static-mbed-os"]
-	path = libs/static-mbed-os
-	url = git@github.com:nnctroboticsclub/static-mbed-os
 [submodule "libs/syoch-robotics"]
 	path = libs/syoch-robotics
 	url = git@github.com:nnctroboticsclub/syoch-robotics
