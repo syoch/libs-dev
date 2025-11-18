@@ -4,6 +4,7 @@ members = [
     "srobo_base",
     "im920_rs",
     "rust_test",
+    "serial_test",
 ]
 
 [patch.crates-io]

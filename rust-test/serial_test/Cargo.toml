@@ -1,0 +1,8 @@
+[package]
+name = "serial_test"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+srobo_base = { path = "../srobo_base", features = ["std"] }
+im920_rs = { path = "../im920_rs" }
