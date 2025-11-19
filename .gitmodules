@@ -25,9 +25,6 @@
 [submodule "libs/syoch-robotics"]
 	path = libs/syoch-robotics
 	url = git@github.com:nnctroboticsclub/syoch-robotics
-[submodule "libs/libs-cmake"]
-	path = libs/libs-cmake
-	url = git@github.com:nnctroboticsclub/libs-cmake.git
 [submodule "nhk-2024-b"]
 	path = nhk-2024-b
 	url = git@github.com:nnctroboticsclub/nhk-2024-b.git

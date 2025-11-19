@@ -1,26 +1,5 @@
 {
   "nodes": {
-    "N25A": {
-      "inputs": {
-        "libs-cmake": [
-          "libs-cmake"
-        ],
-        "nixpkgs": [
-          "nixpkgs"
-        ],
-        "static-mbed-os": "static-mbed-os"
-      },
-      "locked": {
-        "lastModified": 1763451017,
-        "narHash": "sha256-sjfOHAjVJHl73RYXOo+VEUr/99FMYLYiHvPvzRQK6o4=",
-        "path": "/mnt/data/ghq/github.com/syoch/libs-dev/NHK2025A",
-        "type": "path"
-      },
-      "original": {
-        "path": "/mnt/data/ghq/github.com/syoch/libs-dev/NHK2025A",
-        "type": "path"
-      }
-    },
     "libs-cmake": {
       "inputs": {
         "nixpkgs": [
@@ -76,53 +55,9 @@
     },
     "root": {
       "inputs": {
-        "N25A": "N25A",
         "libs-cmake": "libs-cmake",
         "nixpkgs": "nixpkgs",
-        "roboenv": "roboenv",
-        "static-mbed-os": "static-mbed-os_2"
-      }
-    },
-    "static-mbed-os": {
-      "inputs": {
-        "libs-cmake": [
-          "N25A",
-          "libs-cmake"
-        ],
-        "nixpkgs": [
-          "N25A",
-          "nixpkgs"
-        ]
-      },
-      "locked": {
-        "lastModified": 1763450996,
-        "narHash": "sha256-RFEtOz6lC1rdfAwR3LcB00RtNGpEi9Yu25Ox/jx2ADw=",
-        "path": "/mnt/data/ghq/github.com/syoch/libs-dev/libs/static-mbed-os",
-        "type": "path"
-      },
-      "original": {
-        "path": "/mnt/data/ghq/github.com/syoch/libs-dev/libs/static-mbed-os",
-        "type": "path"
-      }
-    },
-    "static-mbed-os_2": {
-      "inputs": {
-        "libs-cmake": [
-          "libs-cmake"
-        ],
-        "nixpkgs": [
-          "nixpkgs"
-        ]
-      },
-      "locked": {
-        "lastModified": 1763450996,
-        "narHash": "sha256-RFEtOz6lC1rdfAwR3LcB00RtNGpEi9Yu25Ox/jx2ADw=",
-        "path": "/mnt/data/ghq/github.com/syoch/libs-dev/libs/static-mbed-os",
-        "type": "path"
-      },
-      "original": {
-        "path": "/mnt/data/ghq/github.com/syoch/libs-dev/libs/static-mbed-os",
-        "type": "path"
+        "roboenv": "roboenv"
       }
     }
   },
