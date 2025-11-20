@@ -2,8 +2,6 @@
   inputs.nixpkgs.url = "github:nixos/nixpkgs/25.05";
 
   inputs.roboenv.url = "path:/mnt/data/ghq/github.com/syoch/libs-dev/libs/roboenv-nix";
-  inputs.roboenv.inputs.nixpkgs.follows = "nixpkgs";
-  inputs.roboenv.inputs.libs-cmake.follows = "libs-cmake";
 
   outputs =
     { roboenv, ... }:

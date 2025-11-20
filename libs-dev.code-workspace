@@ -5,6 +5,9 @@
 		},
 		{
 			"path": "rust-test"
+		},
+		{
+			"path": "NHK2025A"
 		}
 	],
 	"settings": {
@@ -29,7 +32,6 @@
 			"Cargo.toml": "Cargo.lock",
 			".gdbinit": ".lldbinit",
 			".clangd": ".clang-format",
-			"Makefile": "CMakeLists.txt, mbed_app.json, sdkconfig, dependencies.lock",
 		},
 		"chat.tools.terminal.enableAutoApprove": true,
 		"chat.tools.terminal.autoApprove": {
@@ -38,6 +40,9 @@
 			"nix log": true,
 			"nix flake update": true,
 			"ls": true
-		}
+		},
+		"cSpell.words": [
+			"CMSIS"
+		]
 	},
 }

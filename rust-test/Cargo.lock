@@ -619,7 +619,7 @@ dependencies = [
 
 [[package]]
 name = "srobo_base"
-version = "1.0.1"
+version = "1.1.0"
 dependencies = [
  "cbindgen",
  "serialport",
